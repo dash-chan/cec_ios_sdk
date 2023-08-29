@@ -30,5 +30,5 @@ Pod::Spec.new do |s|
 
   s.platform         = :ios, '11.0'
   s.vendored_frameworks = 'sdk/HelpDesk.xcframework', 'sdk/HyphenateChat.xcframework'
-  s.source_files = 'cec_ios_sdk/Classes/**/*'
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 x86_64 arm64' }
 end
