@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'cec_ios_sdk'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Customer Engagement Cloud SDK'
 
 # This description is used to generate tags and improve search results.
@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/dash-chan/cec_ios_sdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '35956195' => '' }
-  s.source           = { :git => 'https://github.com/35956195/cec_ios_sdk.git', :tag => s.version.to_s }
+  s.author           = { 'laiiihz' => '' }
+  s.source           = { :git => 'https://github.com/dash-chan/cec_ios_sdk.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform         = :ios, '11.0'
